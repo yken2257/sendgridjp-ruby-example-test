@@ -18,7 +18,7 @@ echo "API_KEY=$SENDGRID_API_KEY" >> .env
 echo "TOS=alice@sink.sendgrid.net,bob@sink.sendgrid.net,carol@sink.sendgrid.net" >> .env
 echo "FROM=you@example.com" >> .env
 # Show Version
-ruby -version
+ruby --version
 cat Gemfile.lock
 # Test
 ruby sendgridjp-ruby-example-test.rb
